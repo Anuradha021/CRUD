@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "react": ["./node_modules/@types/react"]
+    },
+    "target": "ES6",
+    "moduleResolution": "node",
+    "module": "ESNext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  }
+}
