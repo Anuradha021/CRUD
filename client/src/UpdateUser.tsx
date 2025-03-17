@@ -1,6 +1,7 @@
 import axios from 'axios';
-import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+
 
 const UpdateUser: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -13,7 +14,7 @@ const UpdateUser: React.FC = () => {
     axios
       .get(`http://localhost:3001/getUser/${id}`)
       .then((result) => {
-        console.log(result);
+        
         setName(result.data.name);
         setEmail(result.data.email);
         setAge(result.data.age);
