@@ -1,0 +1,14 @@
+/* src/components/UserForm/styles.css */
+form {
+    width: 100%;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 1rem;
+  }
+  
